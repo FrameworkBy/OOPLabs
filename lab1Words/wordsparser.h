@@ -16,6 +16,8 @@ public:
 
 private:
     char* m_str;
+
+    int get_word( const char *s, int &size, int start = 0 );
 };
 
 #endif // WORDSPARSER_H

@@ -1,4 +1,4 @@
-/* Псевдонимы констант */
+﻿/* Псевдонимы констант */
 #define MAX_NAME_LENGTH    32
 #define MAX_SPEED      400
 
@@ -22,8 +22,8 @@ void AddSpeed( struct CAR* Avto );
 
 /* Основная программа */
 void main( void ) {
-    ::SetConsoleOutputCP(1251);
-    ::SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
     /* Построить автомобиль нужного типа */
     struct CAR My1Avto;
     printf( "***********************************\n" );
